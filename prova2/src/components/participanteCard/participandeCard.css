@@ -1,0 +1,40 @@
+.participante-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  color: var(--tinta);
+  text-align: center;
+  background: var(--papel);
+  border: 3px solid var(--madeira-clara);
+  border-radius: 12px;
+}
+
+.participante-card.card-roca {
+  border-color: var(--celeiro);
+  box-shadow: 0 0 0 3px rgba(181, 51, 42, 0.2);
+}
+
+.participante-card-foto {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.participante-card-nome {
+  font-size: 1.15rem;
+}
+
+.participante-card-selo {
+  padding: 0.25rem 0.65rem;
+  color: #fff;
+  font-weight: 800;
+  background: var(--celeiro);
+  border-radius: 999px;
+}
+
+.participante-card-votar {
+  width: 100%;
+}
